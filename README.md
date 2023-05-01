@@ -28,6 +28,6 @@ in the `project-conf.h` file.
 ```
 For energy measurements be sure to declare it.
 
-...
+```
 #define ENERGEST_CONF_ON 1
-...
+```
