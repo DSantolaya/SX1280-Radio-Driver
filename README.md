@@ -1,18 +1,17 @@
-# SX128X LoRa transceiver driver for [contiki-ng](https://github.com/contiki-ng/contiki-ng) OS
+# SX1280 LoRa transceiver driver for [contiki-ng](https://github.com/contiki-ng/contiki-ng) OS
 
-This driver was developped as a means of studying the effectiveness of 
-the [TSCH](https://tools.ietf.org/html/rfc7554) protocol in conjunction with LoRa.
+This driver was developed to analyze the behaviour of 2.4GHz LoRa radios. Includes preliminary protocol stack based on TSCH.
+Based on git@github.com:tperale/sx128x.git
 
 ## How to use
 
 Clone this repository with the `contiki-ng` submodule.
 
 ```
-git clone --recursive git@github.com:tperale/sx128x.git
+git clone --recursive git@github.com:DSantolaya/SX1280-Radio-Driver.git
 ```
 
-There is an exemple of how to use this driver in `/exemple/` folder in this
-repository. You can see you need to declare the driver in your `Makefile` by adding
+The driver needs to be declare in your `Makefile` by adding
 the following line.
 
 ```
