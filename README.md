@@ -26,7 +26,7 @@ in the `project-conf.h` file.
 ```
 #define NETSTACK_CONF_RADIO sx128x_radio_driver
 ```
-For energy measurements be sure to declare it.
+For energy measurements be sure to declare the Energest module
 
 ```
 #define ENERGEST_CONF_ON 1
