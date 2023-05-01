@@ -1,6 +1,8 @@
 # SX1280 LoRa transceiver driver for [contiki-ng](https://github.com/contiki-ng/contiki-ng) OS
 
-This driver was developed to analyze the behaviour of 2.4GHz LoRa radios. Includes preliminary protocol stack based on TSCH.
+This driver was developed to analyze the behaviour of 2.4GHz LoRa radios. 
+Includes preliminary protocol stack based on TSCH. To be completed.
+
 Based on git@github.com:tperale/sx128x.git
 
 ## How to use
@@ -24,3 +26,8 @@ in the `project-conf.h` file.
 ```
 #define NETSTACK_CONF_RADIO sx128x_radio_driver
 ```
+For energy measurements be sure to declare it.
+
+...
+#define ENERGEST_CONF_ON 1
+...
