@@ -3,8 +3,6 @@
 This driver was developed to analyze the behaviour of 2.4GHz LoRa radios. 
 Includes preliminary protocol stack based on TSCH. To be completed.
 
-Based on git@github.com:tperale/sx128x.git
-
 ## How to use
 
 Clone this repository with the `contiki-ng` submodule.
@@ -31,3 +29,5 @@ For energy measurements be sure to declare the Energest module
 ```
 #define ENERGEST_CONF_ON 1
 ```
+# Credits
+git@github.com:tperale/sx128x.git
